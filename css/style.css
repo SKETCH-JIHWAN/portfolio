@@ -69,16 +69,13 @@ body{width:100%;}
 	color:#818181
 }
 .add-info .contact {
+	display:inline-block;
+	margin:0 auto;
 	margin-bottom:10px
 }
-.add-info .contact::after {
-	content:"";
-	display: block;
-	clear: both;
-}
-.add-info .contact span {
+.add-info .contact li {
 	float:left;
-	margin-right:10px;
+	margin-right:20px;
 	font-size:1.25rem;
 	font-weight:400;
 }
@@ -122,8 +119,11 @@ body{width:100%;}
 	#grid-filter {margin-bottom:20px}
 	#grid-filter li {padding:5px}
 	.grid-item {width:100%}
-	.add-info .contact span {
-		width:100%; margin-bottom:10px; font-size:1rem
+	.add-info .contact li  {
+		font-size:1rem;
+		float:none;
+		width:100%;
+		margin-bottom:10px;
 	}
 }
 
