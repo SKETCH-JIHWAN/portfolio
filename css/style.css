@@ -11,14 +11,15 @@ body {
 }
 
 /* filter */
-body{width:90%; max-width:1080px; margin:0 auto; box-sizing:border-box;}
+body{width:100%;}
+.container {width:92%; max-width:1080px; margin:0 auto; padding-top:40px}
 
-#grid-filter{margin:0; padding:0; padding:40px; padding-left:0; }
+#grid-filter{width:100%; margin:0; padding:0 40px 40px 0;}
 #grid-filter li{list-style:none; display:inline-block; padding:5px 10px; cursor: pointer; text-align:center; border-radius:5px; transition: .3s;}
 #grid-filter li.active {background:#fff; color:#222}
 #grid-filter li:hover, #grid-filter li:focus {background:rgb(129,228,189); color:#fff;}
 
-.grid-item{box-sizing:border-box; padding:5px; width:250px; margin-bottom:10px; background:#fff; color:#222}
+.grid-item{box-sizing:border-box; padding:5px; width:250px; margin-bottom:10px; background:#fff; color:#222; cursor: pointer;}
 .grid-item > h2 {margin:5px 0; font-family:'Shadows Into Light', cursive; font-size:1.75rem; text-transform:uppercase;}
 .grid-item > p {font-weight:100}
 /* nav */
@@ -58,6 +59,26 @@ body{width:90%; max-width:1080px; margin:0 auto; box-sizing:border-box;}
   transform: translate(0, -50%);
 }
 
+.add-info {
+	position: absolute;
+	left:50%;
+	bottom:5%;
+	width:50%;
+	transform: translate(-50%, 0);
+	text-align: center;
+	color:#818181
+}
+.add-info .contact {
+	margin-bottom:10px
+}
+.add-info .contact span {
+	margin:0 10px;
+	font-size:1.25rem;
+	font-weight:400;
+}
+.add-info .copyright {
+	font-size:0.75rem
+}
 .overlay a {
   padding: 8px;
   text-decoration: none;
@@ -89,3 +110,42 @@ body{width:90%; max-width:1080px; margin:0 auto; box-sizing:border-box;}
   right: 35px;
   }
 }
+
+@media screen and (max-width: 720px) {
+	.container {width:75%; padding:0 2%}
+	.grid-item {width:100%}
+}
+
+/* about */
+h1.page-tit {
+	font-size:2.5rem;
+	font-family: 'Shadows Into Light', cursive;
+	margin-bottom:20px;
+	font-weight:600;
+	color:rgb(129,228,189);
+}
+.section {
+	margin-top:30px;
+}
+.section.first {
+	margin-top:0;
+}
+.section h3 {
+	font-size:1.75rem;
+	font-weight:100;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	color:#fff
+}
+.section li {
+	margin-top:5px;
+	color:#818181
+}
+.section li:first-child {margin-top:0}
+.section li::after {
+	content:"";
+	display:block;
+	clear: both;
+}
+.section li span {float:left}
+.section li span.date {margin-right:20px}
