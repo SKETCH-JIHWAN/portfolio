@@ -76,7 +76,7 @@ body{width:100%;}
 .add-info .contact li {
 	float:left;
 	margin-right:20px;
-	font-size:1.25rem;
+	font-size:20px;
 	font-weight:400;
 }
 .add-info .copyright {
@@ -103,7 +103,7 @@ body{width:100%;}
   font-size: 1.5rem;
   padding:0
 }
-
+/*
 @media screen and (max-height: 450px) {
   .overlay {overflow-y: auto;}
   .overlay a {font-size: 20px}
@@ -113,6 +113,7 @@ body{width:100%;}
   right: 35px;
   }
 }
+*/
 
 @media screen and (max-width: 720px) {
 	.container {width:75%; padding:0 2%; padding-top:40px}
@@ -120,7 +121,7 @@ body{width:100%;}
 	#grid-filter li {padding:5px}
 	.grid-item {width:100%}
 	.add-info .contact li  {
-		font-size:1rem;
+		font-size:12px;
 		float:none;
 		width:100%;
 		margin-bottom:10px;
