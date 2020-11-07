@@ -159,5 +159,6 @@ h1.page-tit {
 	display:block;
 	clear: both;
 }
-.section li span {float:left}
+.section li span {float:left; margin-right:10px;}
 .section li span.date {margin-right:20px}
+.section li img {width:30px}
