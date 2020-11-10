@@ -125,11 +125,11 @@ body{width:100%;}
 	#grid-filter {margin-bottom:20px}
 	#grid-filter li {padding:5px}
 	.grid-item {width:100%}
-	.add-info .contact li  {
+	.add-info .contact li {
 		font-size:12px;
-		float:none;
 		width:100%;
 		margin-bottom:10px;
+		margin-right:0;
 	}
 }
 
