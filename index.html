@@ -12,16 +12,6 @@
 	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
 	<title>SKETCH JIHWAN PORTFOLIO</title>
 </head>
-<script>
-	  //counter
-	  const countEl = document.getElementById("count");
-	updateVisitCount();
-	function updateVisitCount() {
-		fetch("https://api.countapi.xyz/update/sketchwan/mysite?amount=1").then(res => res.json()).then(res => {
-			countEl.innerHTML = res.value;
-		});
-	}
-</script>
 <body>
 	<div id="myNav" class="overlay">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -188,7 +178,7 @@
 	</nav>
 	<nav class="visitor" title="visitor">
 		<!-- <p>visitor</p> -->
-		<i class="fas fa-eye"></i><span id="count">0</span>
+		<i class="fas fa-eye"></i><span id="count"></span>
 		<!-- <p id="count">0</p> -->
 	</nav>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
