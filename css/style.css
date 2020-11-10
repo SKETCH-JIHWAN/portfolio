@@ -169,4 +169,4 @@ h1.page-tit {
 .section li img {width:30px}
 
 .visitor {position:fixed; right:2%; bottom:5%; text-transform: uppercase; font-size:12px; text-align:center; padding:3px 7px; border-radius:3px; background:rgba(255,255,255,0.8); color:#222}
-.visitor #count {font-weight:800; margin-left:5px;}
+.visitor #counter {font-weight:800; margin-left:5px;}
