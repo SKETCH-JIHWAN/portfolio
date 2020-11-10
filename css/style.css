@@ -162,3 +162,6 @@ h1.page-tit {
 .section li span {float:left; margin-right:10px;}
 .section li span.date {margin-right:20px}
 .section li img {width:30px}
+
+.visitor {position:absolute; right:2%; bottom:5%; text-transform: uppercase; font-size:12px; text-align:center; padding:3px 7px; border-radius:3px; background:rgba(255,255,255,0.8); color:#222}
+.visitor #count {font-weight:800; margin-left:10px;}

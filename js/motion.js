@@ -51,3 +51,13 @@ $('#masonry-grid').masonry({
 	  $("#grid-filter li").removeClass("active");
 	  $(this).addClass("active");
   });
+
+
+  //counter
+  const countEl = document.getElementById("conut");
+updateVisitCount();
+function updateVisitCount() {
+	fetch("https://api.countapi.xyz/update/sketchwan/mysite/?amount=1").then(res => res.json()).then(res => {
+		countEl.innerHTML = res.value;
+	});
+}
