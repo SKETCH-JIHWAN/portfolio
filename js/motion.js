@@ -1,3 +1,11 @@
+  //counter
+  const countEl = document.getElementById("counter");
+updateVisitCount();
+function updateVisitCount() {
+	fetch("https://api.countapi.xyz/update/sketchwan/mysite?amount=1").then(res => res.json()).then(res => {
+		countEl.innerHTML = res.value;
+	});
+}
 // filtering
 /*
 $(".container input[type='radio'] + label").click(function(){
@@ -52,11 +60,4 @@ $('#masonry-grid').masonry({
 	  $(this).addClass("active");
   });
 
-  //counter
-  const countEl = document.getElementById("count");
-updateVisitCount();
-function updateVisitCount() {
-	fetch("https://api.countapi.xyz/update/sketchwan/mysite?amount=1").then(res => res.json()).then(res => {
-		countEl.innerHTML = res.value;
-	});
-}
+
