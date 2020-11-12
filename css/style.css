@@ -24,7 +24,7 @@ body{width:100%;}
 .grid-item:hover, .grid-item:focus {box-shadow: 0 14px 28px rgba(255,255,255,0.25), 0 10px 10px rgba(255,255,255,0.22);}
 .grid-item > img {display:block; width:85%; margin:5px auto}
 .grid-item > h2 {padding:10px 5px 5px 5px; font-family:'Shadows Into Light', cursive; font-size:1.75rem; text-transform:uppercase;}
-.grid-item > p {font-weight:100; padding-left:5px; padding-bottom:5px}
+.grid-item > p {font-weight:100; padding-left:5px; padding-bottom:5px; line-height:1.25rem;}
 /* nav */
 #nav {position:fixed; top:50%; left:2%; font-size:1.25rem; text-align:center; transform:translate(0, -50%)}
 #nav li {margin:10px 0}
