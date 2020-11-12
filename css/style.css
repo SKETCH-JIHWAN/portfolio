@@ -173,3 +173,27 @@ h1.page-tit {
 
 .visitor {position:fixed; right:2%; bottom:5%; text-transform: uppercase; font-size:12px; text-align:center; padding:3px 7px; border-radius:3px; background:rgba(255,255,255,0.8); color:#222}
 .visitor #counter {font-weight:800; margin-left:5px;}
+
+.modal {opacity:0; position:fixed; top:0; left:0; width:100%; height:100vh; z-index:-1; background:rgba(0,0,0,0.8);}
+.modal .modal-inner {position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); padding:20px; padding-top:32px; text-align:left; background:#222; border-radius:5px;}
+/* .modal .modal-inner .modal-content {padding:10px 0} */
+.modal .modal-inner button {position: absolute; top:3%; right:3%;}
+.modal .modal-inner .modal-title {font-size:16px; font-weight:600;}
+.modal .modal-inner .modal-content img {display:block; width:100%; padding:10px 0}
+
+.modal.fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+	z-index:1;
+}
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

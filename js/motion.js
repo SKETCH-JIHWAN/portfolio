@@ -60,4 +60,23 @@ $('#masonry-grid').masonry({
 	  $(this).addClass("active");
   });
 
+//modal
 
+$(".grid-item").click(function(){
+	itemImg = $(this).find("img").attr("src");
+	console.log(itemImg);
+	itemTitle = $(this).find("h2").text();
+	console.log(itemTitle);
+	itemContent = $(this).find("p").text();
+	console.log(itemContent);
+	$(".modal .modal-inner .modal-title").text("");
+	$(".modal .modal-inner .modal-title").text(itemTitle);
+	$(".modal .modal-inner .modal-content p").text("");
+	$(".modal .modal-inner .modal-content p").text(itemContent);
+	$(".modal .modal-inner .modal-content img").attr("src", "");
+	$(".modal .modal-inner .modal-content img").attr("src", itemImg);
+	$(".modal").addClass("fade-in");
+});
+$(".modal .close").click(function(){
+	$(".modal").removeClass("fade-in");
+})
