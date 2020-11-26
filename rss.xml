@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="naver-site-verification" content="bc13f48914aeaa1e225d4e6db30a5cc222794fdf" />
+<meta name="google-site-verification" content="yFsV7sCCIitTV5V6ju9ffHSRrhR1_53waTC7uHGQP4c" />
+<meta name="title" content="SKETCHWAN PORTFOLIO">
+<meta name="author" content="SKETCHWAN">
+<meta name="description" content="SKETCHWAN의 포트폴리오, 스케치 저장공간">
+<meta name="keywords" content="SKETCHWAN, 스케치환, 스케치, 포트폴리오, 제품디자이너, 제품디자인, 제품디자인 포트폴리오, 제품디자이너 포트폴리오, 스케치 지환, sketch jihwan">
+<meta property="og:title" content="SKETCHWAN PORTFOLIO">
+<meta property="og:description" content="SKETCHWAN의 아이디어 스케치 저장공간, 제품 모델링 등 작업물 포트폴리오 사이트">
+<meta property="og:image" content="https://sketchwan.github.io/portfolio/img/thum.jpeg">
+<meta name="google-site-verification" content="wq8jw2zvp1gJxn4Q0dq4ddMb8kFgo2YWrLFlP0CJGno" />
+<link href='http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"> -->
+<link rel="stylesheet" href="http://sketchwan.com/css/reset.css">
+<link rel="stylesheet" href="http://sketchwan.com/css/style.css">
+<link href="http://sketchwan.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<title>SKETCH JIHWAN PORTFOLIO</title>
+</head>
+<body>
+<div id="myNav" class="overlay">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="overlay-content">
+<a href="http://sketchwan.com/index.html">Home</a>
+<a href="http://sketchwan.com/about.html">About</a>
+</div>
+
+<div class="add-info">
+<ul class="contact">
+<li>yolo.jihwan@kakao.com</li>
+<li>+82 10-2546-8095</li>
+</ul>
+<p class="copyright">Copyright 2020. SKETCHWAN. all rights reserved.</p>
+</div>
+</div>
+<span class="mynav" onclick="openNav()">&#9776;</span>
+<div id="content">
+<div class="container"> 
+<!--
+<div class="filter-nav">
+<input type="radio" id="all" name="filtering"/>
+<label for="all" class="active">All</label>
+<input type="radio" id="sketch" name="filtering" />
+<label for="sketch">Sketch</label>
+<input type="radio" id="modeling" name="filtering"/>
+<label for="modeling">Modeling</label>
+<input type="radio" id="etc" name="filtering"/>
+<label for="etc">ETC.</label>
+</div>
+<div class="filter">
+<div class="item sketch">
+<img src="" alt="">
+<h2>item title</h2>
+<p>item content</p>
+</div>
+<div class="item modeling">2</div>
+<div class="item modeling">3</div>
+<div class="item sketch">4</div>
+<div class="item sketch">5</div>
+<div class="item etc">6</div>
+<div class="item sketch">7</div>
+<div class="item modeling">8</div>
+<div class="item sketch">9</div>
+<div class="item modeling">10</div>
+<div class="item modeling">11</div>
+<div class="item modeling">12</div>
+<div class="item sketch">13</div>
+<div class="item etc">14</div>
+<div class="item etc">15</div>
+<div class="item sketch">16</div>
+</div>
+</div>
+-->
+<ul id="grid-filter">
+<li data-category="*" class="active">All</li>
+<li data-category="category-one">Sketch</li>
+<li data-category="category-two">Modeling</li>
+<li data-category="category-three">Etc.</li>
+</ul>
+
+<div id="masonry-grid">
+<!-- <div class="gutter-sizer"></div> -->
+<div class="grid-item category-two">
+<img src="http://sketchwan.com/img/modeling/rhino3d_umbrella.jpg" alt="Umbrella">
+<h2>Rhino3D - Umbrella</h2>
+<p>Rhino3D Modeling Umbrella (sweep2, scale..)</p>
+</div>
+<div class="grid-item category-two">
+<img src="http://sketchwan.com/img/modeling/rhino3d_can.jpg" alt="Can">
+<h2>Rhino3D - Can</h2>
+<p>Rhino3D Modeling Can (revolve, boolean different..)</p>
+</div>
+<div class="grid-item category-one">
+<img src="http://sketchwan.com/img/sketch/Mood_Light.jpg" alt="Mood Light">
+<h2>Sketch - Mood Light</h2>
+<p>Mood Light Sketh, ipad sketch, product sketch</p>
+</div>
+<div class="grid-item category-one">
+<img src="http://sketchwan.com/img/sketch/Cosmetic_Case-2.jpg" alt="cosmetic case">
+<h2>Sketch - Cosmetic Case</h2>
+<p>Cosmetic Case Sketch, ipad sketch, product sketch</p>
+</div>
+<div class="grid-item category-one">
+<img src="http://sketchwan.com/img/sketch/cosmetic_case.jpg" alt="cosmetic case">
+<h2>Sketch - Cosmetic Case</h2>
+<p>Cosmetic Case Sketch, ipad sketch, product sketch</p>
+</div>
+<div class="grid-item category-two">
+<img src="http://sketchwan.com/img/modeling/rhino3d_bottle.jpg" alt="bottle">
+<h2>Rhino3D - Bottle</h2>
+<p>Rhino3D Modeling Bottle (revole, boolean...)</p>
+</div>
+<div class="grid-item category-one">
+<img src="http://sketchwan.com/img/sketch/Clip_Case.jpeg" alt="clip case">
+<h2>Sketch - Clip Case</h2>
+<p>Clip Case sketch, ipad procreate, product sketch</p>
+</div>
+<div class="grid-item category-two">
+<img src="http://sketchwan.com/img/modeling/rhino3d_propeller.jpg" alt="propeller">
+<h2>Rhino3D - Propeller</h2>
+<p>Rhino3D Modeling Propeller (sweep, helix...)</p>
+</div>
+</div>
+</div>
+<div class="modal" id="modal">
+<div class="deepfade"></div>
+<div class="modal-inner">
+<button type="button" class="close">&times;</button>
+<h3 class="modal-title">Title</h3>
+<div class="modal-content">
+<img src="" alt="">
+<p>content</p>
+</div>
+</div>
+</div>
+<nav id="nav" class="nav">
+<ul>
+<li>
+<a href="https://www.instagram.com/sketch_jihwan/?hl=ko" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
+</li>
+<li>
+<a href="https://www.youtube.com/channel/UC03XagB4qGCd13j5dMShmBQ" target="_blank">
+<i class="fab fa-youtube"></i>
+</a>
+</li>
+<li>
+<a href="https://open.kakao.com/me/sketchwan" target="_blank">
+<i class="fas fa-comment"></i>
+</a>
+</li>
+</ul>
+</nav>
+<nav class="visitor" title="visitor">
+<!-- <p>visitor</p> -->
+<i class="fas fa-eye"></i><span id="counter"></span>
+<!-- <p id="count">0</p> -->
+</nav>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="http://sketchwan.com/js/motion.js"></script>
+<script> 
+// hambergur menu
+function openNav() {
+document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+document.getElementById("myNav").style.height = "0%";
+}
+</script>
+</body>
+</html>
