@@ -48,101 +48,67 @@
 	</div>
 	<span class="mynav" onclick="openNav()">&#9776;</span>
 	<div id="content">
-		<div class="container"> 
-			<!--
-			<div class="filter-nav">
-				<input type="radio" id="all" name="filtering"/>
-				<label for="all" class="active">All</label>
-				<input type="radio" id="sketch" name="filtering" />
-				<label for="sketch">Sketch</label>
-				<input type="radio" id="modeling" name="filtering"/>
-				<label for="modeling">Modeling</label>
-				<input type="radio" id="etc" name="filtering"/>
-				<label for="etc">ETC.</label>
-			</div>
-			<div class="filter">
-				<div class="item sketch">
-					<img src="" alt="">
-					<h2>item title</h2>
-					<p>item content</p>
+		<div class="container">
+			<ul id="grid-filter">
+				<li data-category="*" class="active">All</li>
+				<li data-category="category-one">Sketch</li>
+				<li data-category="category-two">Modeling</li>
+				<li data-category="category-three">Etc.</li>
+			</ul>
+			
+			<div id="masonry-grid">
+				<!-- <div class="gutter-sizer"></div> -->
+				<div class="grid-item category-two">
+					<img src="img/modeling/rhino3d_umbrella.jpg" alt="Umbrella">
+					<h2>Rhino3D - Umbrella</h2>
+					<p>Rhino3D Modeling Umbrella (sweep2, scale..)</p>
 				</div>
-				<div class="item modeling">2</div>
-				<div class="item modeling">3</div>
-				<div class="item sketch">4</div>
-				<div class="item sketch">5</div>
-				<div class="item etc">6</div>
-				<div class="item sketch">7</div>
-				<div class="item modeling">8</div>
-				<div class="item sketch">9</div>
-				<div class="item modeling">10</div>
-				<div class="item modeling">11</div>
-				<div class="item modeling">12</div>
-				<div class="item sketch">13</div>
-				<div class="item etc">14</div>
-				<div class="item etc">15</div>
-				<div class="item sketch">16</div>
+				<div class="grid-item category-two">
+					<img src="img/modeling/rhino3d_can.jpg" alt="Can">
+					<h2>Rhino3D - Can</h2>
+					<p>Rhino3D Modeling Can (revolve, boolean different..)</p>
+				</div>
+				<div class="grid-item category-one">
+					<img src="img/sketch/Mood_Light.jpg" alt="Mood Light">
+					<h2>Sketch - Mood Light</h2>
+					<p>Mood Light Sketh, ipad sketch, product sketch</p>
+				</div>
+				<div class="grid-item category-one">
+					<img src="img/sketch/Cosmetic_Case-2.jpg" alt="cosmetic case">
+					<h2>Sketch - Cosmetic Case</h2>
+					<p>Cosmetic Case Sketch, ipad sketch, product sketch</p>
+				</div>
+				<div class="grid-item category-one">
+					<img src="img/sketch/cosmetic_case.jpg" alt="cosmetic case">
+					<h2>Sketch - Cosmetic Case</h2>
+					<p>Cosmetic Case Sketch, ipad sketch, product sketch</p>
+				</div>
+				<div class="grid-item category-two">
+					<img src="img/modeling/rhino3d_bottle.jpg" alt="bottle">
+					<h2>Rhino3D - Bottle</h2>
+					<p>Rhino3D Modeling Bottle (revole, boolean...)</p>
+				</div>
+				<div class="grid-item category-one">
+					<img src="img/sketch/Clip_Case.jpeg" alt="clip case">
+					<h2>Sketch - Clip Case</h2>
+					<p>Clip Case sketch, ipad procreate, product sketch</p>
+				</div>
+				<div class="grid-item category-two">
+					<img src="img/modeling/rhino3d_propeller.jpg" alt="propeller">
+					<h2>Rhino3D - Propeller</h2>
+					<p>Rhino3D Modeling Propeller (sweep, helix...)</p>
+				</div>
 			</div>
 		</div>
-		-->
-		<ul id="grid-filter">
-			<li data-category="*" class="active">All</li>
-			<li data-category="category-one">Sketch</li>
-			<li data-category="category-two">Modeling</li>
-			<li data-category="category-three">Etc.</li>
-		</ul>
-		
-		<div id="masonry-grid">
-			<!-- <div class="gutter-sizer"></div> -->
-			<div class="grid-item category-two">
-				<img src="img/modeling/rhino3d_umbrella.jpg" alt="Umbrella">
-				<h2>Rhino3D - Umbrella</h2>
-				<p>Rhino3D Modeling Umbrella (sweep2, scale..)</p>
-			</div>
-			<div class="grid-item category-two">
-				<img src="img/modeling/rhino3d_can.jpg" alt="Can">
-				<h2>Rhino3D - Can</h2>
-				<p>Rhino3D Modeling Can (revolve, boolean different..)</p>
-			</div>
-			<div class="grid-item category-one">
-				<img src="img/sketch/Mood_Light.jpg" alt="Mood Light">
-				<h2>Sketch - Mood Light</h2>
-				<p>Mood Light Sketh, ipad sketch, product sketch</p>
-			</div>
-			<div class="grid-item category-one">
-				<img src="img/sketch/Cosmetic_Case-2.jpg" alt="cosmetic case">
-				<h2>Sketch - Cosmetic Case</h2>
-				<p>Cosmetic Case Sketch, ipad sketch, product sketch</p>
-			</div>
-			<div class="grid-item category-one">
-				<img src="img/sketch/cosmetic_case.jpg" alt="cosmetic case">
-				<h2>Sketch - Cosmetic Case</h2>
-				<p>Cosmetic Case Sketch, ipad sketch, product sketch</p>
-			</div>
-			<div class="grid-item category-two">
-				<img src="img/modeling/rhino3d_bottle.jpg" alt="bottle">
-				<h2>Rhino3D - Bottle</h2>
-				<p>Rhino3D Modeling Bottle (revole, boolean...)</p>
-			</div>
-			<div class="grid-item category-one">
-				<img src="img/sketch/Clip_Case.jpeg" alt="clip case">
-				<h2>Sketch - Clip Case</h2>
-				<p>Clip Case sketch, ipad procreate, product sketch</p>
-			</div>
-			<div class="grid-item category-two">
-				<img src="img/modeling/rhino3d_propeller.jpg" alt="propeller">
-				<h2>Rhino3D - Propeller</h2>
-				<p>Rhino3D Modeling Propeller (sweep, helix...)</p>
-			</div>
-		</div>
-	</div>
-	<div class="modal" id="modal">
-		<div class="deepfade"></div>
-		<div class="modal-inner">
-			<button type="button" class="close">&times;</button>
-			<h3 class="modal-title">Title</h3>
-			<div class="modal-content">
-				<img src="" alt="">
-				<p>content</p>
+		<div class="modal" id="modal">
+			<div class="deepfade"></div>
+			<div class="modal-inner">
+				<button type="button" class="close">&times;</button>
+				<h3 class="modal-title">Title</h3>
+				<div class="modal-content">
+					<img src="" alt="">
+					<p>content</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -173,7 +139,7 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 	<script src="js/motion.js"></script>
-	<script>  
+	<script>
 		// hambergur menu
 		function openNav() {
 			document.getElementById("myNav").style.height = "100%";
