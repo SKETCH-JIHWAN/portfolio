@@ -28,7 +28,9 @@ body{width:100%;}
 /* nav */
 #nav {position:fixed; top:50%; left:2%; font-size:1.25rem; text-align:center; transform:translate(0, -50%)}
 #nav li {margin:10px 0}
-#nav li:hover a {color:rgb(129,228,189);}
+#nav li:hover a, #nav li:focus a {color:rgb(129,228,189);}
+#nav li a:hover, #nav li a:focus {color:rgb(129,228,189)}
+#nav li a:active {color:#222}
 .sketch-tit {font-family: 'Shadows Into Light', cursive;}
 
 /* hambergur menu */
