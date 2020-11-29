@@ -3,8 +3,13 @@ html {
 	font-size:14px;
 	background:#222;
 }
-html {
-
+body {
+	font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	font-weight:400;
+	line-height:1;
+	color:#fff;
+}
+html, body {
 	/* Prevent font scaling in landscape */
 
    -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
@@ -14,13 +19,6 @@ html {
    -ms-text-size-adjust: none;  /*Ie*/
 
    -o-text-size-adjust: none; /*old versions of Opera*/
-
-}
-body {
-	font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
-	font-weight:400;
-	line-height:1;
-	color:#fff;
 }
 
 /* filter */
