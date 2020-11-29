@@ -3,6 +3,19 @@ html {
 	font-size:14px;
 	background:#222;
 }
+html {
+
+	/* Prevent font scaling in landscape */
+
+   -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+
+   -moz-text-size-adjust: none; /*Firefox*/
+
+   -ms-text-size-adjust: none;  /*Ie*/
+
+   -o-text-size-adjust: none; /*old versions of Opera*/
+
+}
 body {
 	font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
 	font-weight:400;
@@ -19,10 +32,10 @@ body{width:100%;}
 #grid-filter li.active {background:#fff; color:#222}
 #grid-filter li:hover, #grid-filter li:focus {background:rgb(129,228,189); color:#fff;}
 
-.grid-item {box-sizing:border-box; padding:5px; width:250px; margin-bottom:10px; display:block; background:#fff; color:#222; cursor: pointer; border-radius:5px; box-shadow: 0 1px 3px rgba(255,255,255,0.12), 0 1px 2px rgba(255,255,255,0.24);
+.grid-item {box-sizing:border-box; padding:10px; width:250px; margin-bottom:10px; display:block; background:#fff; color:#222; cursor: pointer; border-radius:5px; box-shadow: 0 1px 3px rgba(255,255,255,0.12), 0 1px 2px rgba(255,255,255,0.24);
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);}
 .grid-item:hover, .grid-item:focus {box-shadow: 0 14px 28px rgba(255,255,255,0.25), 0 10px 10px rgba(255,255,255,0.22);}
-.grid-item > img {display:block; width:85%; margin:5px auto}
+.grid-item > img {display:block; width:100%}
 .grid-item > h2 {padding:10px 5px 5px 5px; font-family:'Shadows Into Light', cursive; font-size:1.75rem; text-transform:uppercase;}
 .grid-item > p {font-weight:100; padding-left:5px; padding-bottom:5px; line-height:1.25rem;}
 /* nav */
@@ -187,11 +200,13 @@ h1.page-tit {
 /* .modal .modal-inner .modal-content {padding:10px 0} */
 .modal .modal-inner button {position: absolute; top:3%; right:3%;}
 .modal .modal-inner .modal-title {font-size:16px; font-weight:600;}
-.modal .modal-inner .modal-content img {display:block; width:100%; padding:10px 0}
+.modal .modal-inner .modal-content img {display:block; height:80vh; padding:10px 0}
 .modal .modal-inner .modal-content p {line-height:16px;}
 
 @media screen and (max-width: 720px) {
 	.modal .modal-inner {width:90vw;}
+	.modal .modal-inner .modal-content img {width:80vw;}
+	.add-info .contact li.number {font-size:12px;}
 }
 
 .modal.fade-in {
