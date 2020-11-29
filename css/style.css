@@ -198,12 +198,12 @@ h1.page-tit {
 /* .modal .modal-inner .modal-content {padding:10px 0} */
 .modal .modal-inner button {position: absolute; top:3%; right:3%;}
 .modal .modal-inner .modal-title {font-size:16px; font-weight:600;}
-.modal .modal-inner .modal-content img {display:block; height:80vh; padding:10px 0}
+.modal .modal-inner .modal-content img {display:block; width:auto; height:80vh; padding:10px 0}
 .modal .modal-inner .modal-content p {line-height:16px;}
 
 @media screen and (max-width: 720px) {
 	.modal .modal-inner {width:90vw;}
-	.modal .modal-inner .modal-content img {width:80vw;}
+	.modal .modal-inner .modal-content img {width:80vw; height:auto}
 	.add-info .contact li.number {font-size:12px;}
 }
 
