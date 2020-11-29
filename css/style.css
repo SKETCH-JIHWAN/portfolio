@@ -203,7 +203,7 @@ h1.page-tit {
 
 @media screen and (max-width: 720px) {
 	.modal .modal-inner {width:90vw;}
-	.modal .modal-inner .modal-content img {width:90%; height:auto}
+	.modal .modal-inner .modal-content img {width:100%; height:auto}
 	.add-info .contact li.number {font-size:12px;}
 }
 
