@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>SKETCHWAN PORTFOLIO</title>
-    <link>https://sketchwan.com/</link>
+    <title>SKETCH JIHWAN PORTFOLIO</title>
+    <link>https://SKETCH JIHWAN.com/</link>
     <description>SKETCH JIHWAN PORTFOLIO, 스케치 지환의 포트폴리오</description>
     <item>
       <title>포트폴리오</title>
-      <link>https://sketchwan.com/index.html</link>
+      <link>https://SKETCH JIHWAN.com/index.html</link>
       <description>포트폴리오</description>
       <pubDate>Fri, 27 Nov 2020 18:00:00 +0900</pubDate>
-      <guid>https://sketchwan.com/index.html</guid>
+      <guid>https://SKETCH JIHWAN.com/index.html</guid>
     </item>
     <item>
       <title>개인정보</title>
-      <link>https://sketchwan.com/about.html</link>
+      <link>https://SKETCH JIHWAN.com/about.html</link>
       <description>개인정보</description>
       <pubDate>Fri, 27 Nov 2020 18:00:00 +0900</pubDate>
-      <guid>https://sketchwan.com/about.html</guid>
+      <guid>https://SKETCH JIHWAN.com/about.html</guid>
     </item>
   </channel>
 </rss>
